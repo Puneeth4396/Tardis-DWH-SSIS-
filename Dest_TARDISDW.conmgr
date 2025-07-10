@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Dest_TARDISDW"
+  DTS:DTSID="{81FBB700-7B6A-4C08-A6FA-5F78BD265DD0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=SAGARA-LAPTOP\SQLEXPRESS;Initial Catalog=TARDISDW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{81FBB700-7B6A-4C08-A6FA-5F78BD265DD0}SAGARA-LAPTOP\SQLEXPRESS.TARDISDW;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
